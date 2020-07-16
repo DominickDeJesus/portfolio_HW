@@ -4,11 +4,25 @@
   padding: 0px;
 }
 
+.class{
+  border-radius: 10px;
+}
 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+}
+img{
+  padding: 20px;
+}
 
+ .search-bar{
+   height: 30px;
+   padding: 0px;
+   width: 350px;  
+   font-size: 500px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
 }
 
 a {
@@ -20,6 +34,9 @@ a {
   display: inline;
 }
 
+nav{
+  padding: 10px;
+}
 nav.menu {
   display: flex;
   justify-content: space-between;
@@ -27,10 +44,7 @@ nav.menu {
 }
 .navleft li {
   display: flex;
-  padding-left: 15px;
-  background-color: red;
-  
-  
+  padding-left: 15px;  
 }
 
 .navright {
@@ -42,9 +56,12 @@ nav.menu {
   padding-right: 15px;
 }
 
+html{
+  height: 100%;
+}
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  height: 100%;
 }
 
 h1 {
@@ -65,11 +82,9 @@ h1 {
   height: 80vh;
 }
 
-.google-logo img {
-}
-
 #buttons {
-  padding: 10pt;
+
+  padding: 20px;
 }
 #button {
   display: flex;
@@ -77,8 +92,12 @@ h1 {
 }
 
 .footer {
-  background-color: #d1cdcc;
-  padding: 15px;
+  background-color: #F6F6F6;
+  padding: 15px 0px;
   justify-content: space-around;
-  margin: 0px;
+  border-top: 1px solid rgba(198, 198, 198, .2);
+  position: absolute;  
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
